@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/tuki/static/css/main.f23d5e03.chunk.css",
+    "main.js": "/tuki/static/js/main.92798220.chunk.js",
+    "main.js.map": "/tuki/static/js/main.92798220.chunk.js.map",
+    "runtime-main.js": "/tuki/static/js/runtime-main.75522ff8.js",
+    "runtime-main.js.map": "/tuki/static/js/runtime-main.75522ff8.js.map",
+    "static/js/2.4d8c3236.chunk.js": "/tuki/static/js/2.4d8c3236.chunk.js",
+    "static/js/2.4d8c3236.chunk.js.map": "/tuki/static/js/2.4d8c3236.chunk.js.map",
+    "index.html": "/tuki/index.html",
+    "precache-manifest.3e2acf15759f1350142d3f8da5d3ce10.js": "/tuki/precache-manifest.3e2acf15759f1350142d3f8da5d3ce10.js",
+    "service-worker.js": "/tuki/service-worker.js",
+    "static/css/main.f23d5e03.chunk.css.map": "/tuki/static/css/main.f23d5e03.chunk.css.map",
+    "static/js/2.4d8c3236.chunk.js.LICENSE.txt": "/tuki/static/js/2.4d8c3236.chunk.js.LICENSE.txt",
+    "static/media/Tint Color.txt": "/tuki/static/media/Tint Color.30c763a6.txt",
+    "static/media/ale2.png": "/tuki/static/media/ale2.8418d192.png",
+    "static/media/background-large.jpg": "/tuki/static/media/background-large.d7fea702.jpg",
+    "static/media/daniel_millan4.png": "/tuki/static/media/daniel_millan4.083da8cf.png",
+    "static/media/david_gamboa4.png": "/tuki/static/media/david_gamboa4.6e1daa2c.png",
+    "static/media/fabrizio_brandani2.png": "/tuki/static/media/fabrizio_brandani2.0b7360b9.png",
+    "static/media/octavio_mendez2.png": "/tuki/static/media/octavio_mendez2.6a632f53.png",
+    "static/media/sebastian_rodriguez4.png": "/tuki/static/media/sebastian_rodriguez4.fea5ecc2.png",
+    "static/media/tomas_mejia4.png": "/tuki/static/media/tomas_mejia4.90f6dbb6.png",
+    "static/media/unknown2.png": "/tuki/static/media/unknown2.1c311b5a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75522ff8.js",
+    "static/js/2.4d8c3236.chunk.js",
+    "static/css/main.f23d5e03.chunk.css",
+    "static/js/main.92798220.chunk.js"
+  ]
+}
