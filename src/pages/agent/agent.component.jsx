@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Navbar from "../../components/navbar/navbar.component";
 import { Project, Words, Image, Content } from 'arwes'
 import { Link } from 'react-router-dom'
-import { findUserFromCollection, statusColor, checkIfLoaded } from '../../utils'
+import { findUserFromCollection, statusColor, checkIfLoaded } from '../quicktools'
 import { agentsData } from '../../data'
 import './agent.scss'
 
