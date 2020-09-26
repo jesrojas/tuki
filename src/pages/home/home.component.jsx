@@ -15,7 +15,7 @@ const Home = ({ match, history }) => {
             Specialized Underground Agents for Excommunicado Contracts
           </Words>
         </p>
-        <Button onClick={() => history.push(`${match.url}agents`)} animate>
+        <Button onClick={() => history.push(`${match.path}/agents`)} animate>
           Agents
         </Button>
       </div>

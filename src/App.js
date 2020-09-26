@@ -37,11 +37,11 @@ const App = () => {
           { anim => (
             <div>
               <Switch>
-                  <Route exact path='/' component={Home}/>
-                  <Route exact path='/agents'>
+                  <Route exact path='/tuki' component={Home}/>
+                  <Route exact path='/tuki/agents'>
                     <Agents anim={anim}/>
                   </Route>
-                  <Route path='/agents/:agentName' render={props => (<Agent {...props}/>)}/>
+                  <Route path='/tuki/agents/:agentName' render={props => (<Agent {...props}/>)}/>
               </Switch>
             </div>
           )}

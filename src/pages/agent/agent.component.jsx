@@ -80,7 +80,7 @@ const Agent = (props) => {
                 <Words animate>{languages}</Words>
               </p>
               <Content>
-                <Link to="/agents">
+                <Link to="/tuki/agents">
                   <p className="go-back-page">
                     <a>Go back to agents</a>
                   </p>
