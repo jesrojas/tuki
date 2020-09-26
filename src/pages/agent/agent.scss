@@ -1,0 +1,46 @@
+.go-back-page {
+    padding-top: 1rem;
+    text-decoration: none;
+}
+
+.characterPageView {
+    margin: 0 auto;
+    padding: 40px 20px 20px 20px;
+    max-width: 993px;
+
+    .characterSpecifics {
+        @media screen and (max-width: 800px) {
+            padding: 0 2rem 1rem 1rem;
+        }
+    }
+}
+
+.characterInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media screen and (max-width: 800px) {
+        flex-direction: column-reverse;
+    }
+
+    .characterBio {
+        padding-right: 3.5rem;
+
+        @media screen and (max-width: 800px) {
+            padding: 0 1rem 1rem 1rem;
+        }
+    }
+    
+    .characterImage {
+        max-width: 300px;
+        transition: all .2s ease-in;
+
+        @media screen and (max-width: 800px) {
+            align-self: center;
+            padding: 1rem 0.5rem;
+        }
+    }
+}
+
+

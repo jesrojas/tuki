@@ -1,0 +1,15 @@
+.main-page {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 1350px) {
+        max-width: 80vw;
+        margin: 0 auto;
+      }
+
+    .select-agent {
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+}

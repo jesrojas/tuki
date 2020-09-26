@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    max-width: 993px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 1.5rem 1rem;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleAcronym {
+    margin-top: 1rem !important;
+    margin-bottom: 0 !important;
+}
+
+.acronymDefinition {
+    margin: 0 !important;
+}

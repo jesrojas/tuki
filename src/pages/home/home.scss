@@ -1,0 +1,17 @@
+.opening {
+    padding-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &_agents-title {
+        color: #a1ecfb;
+        margin: 0.5rem 0rem 0.5rem 0rem;
+    }
+
+    &_agents-info {
+        margin-top: 0;
+        color: #30fffe;
+    }
+}
