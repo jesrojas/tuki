@@ -2,20 +2,12 @@ import React, { useState, useEffect } from 'react'
 import Navbar from "../../components/navbar/navbar.component";
 import { Project, Words, Image, Content } from 'arwes'
 import { Link } from 'react-router-dom'
-import { findUserFromCollection, statusColor } from '../../utils'
+import { findUserFromCollection, statusColor, checkIfLoaded } from '../../utils'
 import { agentsData } from '../../data'
 import './agent.scss'
 
 const Agent = (props) => {
   const [agent, changeAgent] = useState({})
-
-  const checkIfLoaded = (img) => {
-    if (img) {
-      return img;
-    } else {
-      return "unknown2.png";
-    }
-  }; 
 
     useEffect(() => {
         const changeAgentsAsync = async () => {
