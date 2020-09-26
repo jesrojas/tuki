@@ -1,16 +1,22 @@
 .go-back-page {
     padding-top: 1rem;
     text-decoration: none;
+
+    @media screen and (max-width: 800px) {
+            padding-left: 1rem;
+    }
 }
 
 .characterPageView {
     margin: 0 auto;
     padding: 40px 20px 20px 20px;
-    max-width: 993px;
+    max-width: 700px;
 
-    .characterSpecifics {
+    .characterBio {
+        padding-right: 0rem;
+
         @media screen and (max-width: 800px) {
-            padding: 0 2rem 1rem 1rem;
+            padding: 0 1rem 1rem 1rem;
         }
     }
 }
@@ -24,19 +30,19 @@
         flex-direction: column-reverse;
     }
 
-    .characterBio {
-        padding-right: 3.5rem;
-
+    
+    .characterSpecifics {
         @media screen and (max-width: 800px) {
-            padding: 0 1rem 1rem 1rem;
+            padding: 0 2rem 1rem 1rem;
         }
     }
     
     .characterImage {
-        max-width: 300px;
+        max-width: 200px;
         transition: all .2s ease-in;
-
+        
         @media screen and (max-width: 800px) {
+            max-width: 300px;
             align-self: center;
             padding: 1rem 0.5rem;
         }
